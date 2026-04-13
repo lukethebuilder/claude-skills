@@ -47,10 +47,6 @@ Install into a Claude Code project using the `skills` CLI with the `--agent clau
 npx skills@latest add lukethebuilder/skills/agent-config-migrate --agent claude-code
 ```
 
-By default, `skills` installs into `.agents/skills/`. The `--agent claude-code` flag maps the install to `.claude/skills/` instead, which is where Claude Code looks for project-level skills.
-
-> **Install path note:** The `npx` command installs to `.claude/skills/agent-config-migrate/SKILL.md` inside your project. If you install globally (manually copying to `~/.claude/`), the path is `~/.claude/agent-config-migrate/SKILL.md` — no `skills/` subdirectory. Both locations are valid; Claude Code checks both.
-
 ---
 
 ## Usage
