@@ -1,6 +1,6 @@
 # skills
 
-A collection of Claude Code skills using the open [Agent Skills](https://agentskills.dev) standard, installable via the `npx skills@latest` CLI.
+A collection of Claude Code skills using the open Agent Skills standard, installable via the `npx skills@latest` CLI.
 
 Skills in this repo are designed to extend Claude Code with focused, reusable workflows — installed once, invokable by name, and kept out of your main `CLAUDE.md`.
 
